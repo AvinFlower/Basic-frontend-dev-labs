@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+body
+{
+   margin: 0 auto; 
+}
+ul,li 
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container1
+{
+    background-color: #87509c;
+    padding-bottom: 150px;
+    font-family:"Titillium Web";
+}
+.panel
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.Cuda
+{
+    margin-right: 600px;
+    margin-left: 20px;
+}
+header a
+{
+    color: white;
+}
+.menu
+{
+    margin: 0 auto;
+    display: flex;
+}
+.HOME
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #643a79;
+    height: 20px;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+}
+.menu li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu li
+{
+    margin-right: 40px;
+}
+
+.text
+{
+    text-align: center;
+    padding-top: 110px;
+    color: white;
+    font-size: 42px;
+}
+.button
+{
+    margin-left: 600px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: #eb7d4b;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 4px 0 rgb(200,106,64);
+}
+
+
+
+
+.container2
+{
+    margin: 0 auto;
+    background-color: #e7f1f8;
+    padding-bottom: 100px;
+    font-family:"Titillium Web";
+}
+.section
+{
+    padding-top: 50px;
+    text-align: center;
+    color: #3c4761;
+    font-size: 26px;
+}
+.cherta
+{
+    margin: 0 auto;
+    background-color: #cfdee9;
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+}
+.WeAreTeam
+{
+    font-size: 20px;
+}
+.pics
+{
+    margin: 0 auto;
+}
+.pic1
+{
+    margin-top: 80px;
+    position: relative;
+    left: 20%;
+    transform: translate(-80%, 0);
+    background-color: #878787;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.pic2
+{
+    margin-top: -195px;
+    position: relative;
+    left: 40%;
+    transform: translate(-60%, 0);
+    background-color: #878787;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.pic3
+{
+    margin-top: -200px;
+    position: relative;
+    left: 60%;
+    transform: translate(-40%, 0);
+    background-color: #878787;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.pic4
+{
+    margin-top: -201px;
+    position: relative;
+    left: 80%;
+    transform: translate(-20%, 0);
+    background-color: #878787;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.aboutMe
+{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.AnneHathaway
+{
+    margin: 0 auto;
+    margin-left: 150px;
+    font-size: 22px;
+    color: #28293e;
+}
+.KateUptown
+{
+    margin: 0 auto;
+    margin-left: 126px;
+    font-size: 22px;
+    color: #28293e;
+}
+.OliviaWilde
+{
+    margin: 0 auto;
+    margin-left: 137px;
+    font-size: 22px;
+    color: #28293e;
+}
+.AshleyGreene
+{
+    margin: 0 auto;
+    margin-left: 119px;
+    font-size: 22px;
+    color: #28293e;
+}
+.CEO
+{
+    margin-top: 10px;
+    color: #66caeb;
+    margin-left: 152px;
+    font-size: 18px;
+}
+.CreativeDirector
+{
+    margin-top: 10px;
+    color: #66caeb;
+    margin-left: 134px;
+    font-size: 18px;
+}
+.LeadDesigner
+{
+    margin-top: 10px;
+    color: #66caeb;
+    margin-left: 149px;
+    font-size: 18px;
+}
+.SEO
+{
+    margin-top: 10px;
+    color: #66caeb;
+    margin-left: 139px;
+    font-size: 18px;
+}
+.t1
+{
+    text-align: center;
+    margin-left: 141px;
+    color:#677287;
+}
+.t2
+{
+    text-align: center;
+    margin-left: 104px;
+    color:#677287;
+}
+.t3
+{
+    text-align: center;
+    margin-left: 104px;
+    color:#677287;
+}
+.t4
+{
+    text-align: center;
+    margin-left: 115px;
+    color:#677287;
+}
+.facebook
+{
+    margin-left: 154px;
+}
+.twitter
+{
+    margin-left: 6px;
+}
+.in
+{
+    margin-left: 6px;
+}
+.mail
+{
+    margin-left: 6px;
+}
+.twitter2
+{
+    margin-left: 140px;
+}
+.in2
+{
+    margin-left: 6px;
+}
+.mail2
+{
+    margin-left: 6px;
+}
+.facebook3
+{
+    margin-left: 125px;
+}
+.twitter3
+{
+    margin-left: 6px;
+}
+.in3
+{
+    margin-left: 6px;
+}
+.mail3
+{
+    margin-left: 6px;
+}
+.facebook4
+{
+    margin-left: 141px;
+}
+.twitter4
+{
+    margin-left: 6px;
+}
+.in4
+{
+    margin-left: 6px;
+}
+
+
+
+
+.container3
+{
+    margin: 0 auto;
+    background-color: #3c5499;
+    font-family:"Titillium Web";
+}
+.footer
+{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.cherta2
+{
+    margin: 0 auto;
+    background-color: #273a71;
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+}
+.field1
+{
+    margin-left: 325px;
+    margin-top: 70px;
+    height: 60px;
+    width: 395px;
+    background-color: #273a71;
+}
+.YN
+{
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.dot1
+{
+    color: #d74680;
+}
+.field2
+{
+    margin-left: 750px;
+    margin-top: -76px;
+    height: 60px;
+    width: 395px;
+    background-color: #273a71;
+}
+.YE
+{
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.dot2
+{
+    color: #d74680;
+}
+.field3
+{
+    margin-left: 325px;
+    margin-top: 30px;
+    height: 280px;
+    width: 820px;
+    background-color: #273a71;
+}
+.YM
+{
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.dot3
+{
+    color: #d74680;
+}
+.piramida
+{
+    margin-left: 788px;
+    margin-top: 195px;
+}
+.button2
+{
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: #30bae7;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 4px 0 rgb(41,158,197);
+}
+.EndPanel
+{
+    margin-top: 100px;
+    height: 110px;
+    background-color: #273a71;
+}
+.EP
+{
+    padding-top:15px;
+    padding-left: 260px;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    display: flex;
+}
+.EP li
+{
+    margin-right: 60px;
+}
+.TwitterBlue
+{
+    color: #30bae7;
+}
