@@ -1,0 +1,480 @@
+.Background 
+{
+    position: page;
+    background: rgba(30, 144, 255, 0.5);
+}
+
+/* Frame 1 */
+
+.mainBar 
+{
+    height: 80px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 0;
+    background: #FEFEFE;
+    border-radius: 12px;
+}
+
+/* LOGO */
+
+.logo 
+{
+    padding-top: 20px;
+    padding-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A2541;
+}
+
+.menu_btn 
+{
+    vertical-align: middle;
+    display: none;
+}
+
+.menu_btn_click 
+{
+    background: url("menu.png");
+    border: none;
+    display: none;
+    margin-top: -37px;
+    height: 32px;
+    width: 32px;
+}
+/* Group 1 */
+
+.menu 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -29px;
+    z-index: 1;
+}
+
+.menu2 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: -29px;
+    padding-right: 88px;
+    z-index: 1;
+
+}
+
+.mainBar .show_menu 
+{
+    display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    padding: 55px 20px 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+.mainBar .show_menu2 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 120px;
+    padding: 40px 20px 20px 40px;
+    z-index: 2;
+}
+
+.mainBar .show_menu span 
+{
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Home */
+
+.Home 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.mainBar .show_menu2 .Frame3 
+{
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/* Illustrations */
+
+.Illustrations 
+{
+    padding-left: 60px;
+    padding-right: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Contact */
+
+.Contact
+{
+    margin-right: 20px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+/* Frame 3 */
+
+.Frame3
+{
+    box-sizing: border-box;
+
+    width: 127px;
+    height: 41px;
+
+    margin-right: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #7372FF;
+    border-radius: 5px;
+}
+
+
+/* Sign up */
+
+.SignUp 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #4443D0;
+    z-index: 1;
+}
+
+
+/* Frame 2 */
+
+.Frame2
+{
+    box-sizing: border-box;
+    width: 127px;
+    height: 41px;
+    background: #4443D0;
+    border-radius: 5px;
+}
+
+
+/* Sign in */
+
+.SignIn 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+
+/* Frame 4 */
+
+.Frame4 
+{
+    position: absolute;
+    width: 127px;
+    height: 41px;
+    left: 122px;
+    top: 791px;
+
+    background: #4140CD;
+    border-radius: 5px;
+}
+
+/* Sign up */
+
+.SignUp2 
+{
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    left: 36px;
+    top: 11px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    z-index: 1;
+
+}
+
+.mainText 
+{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 200px;
+    text-align: left;
+    color: #0A2541;
+    display: inline-block;
+}
+
+/* Make Your Business Stand out! */
+
+.mainText-header 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+
+    color: #0A2541;
+    z-index: -1;
+}
+
+/* We provide the best illutration packs avaliable on the market */
+
+.mainText-body 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.form_button 
+{
+    width: 127px;
+    height: 41px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7372FF;
+    border-color: #7372FF;
+    border-width: 1px;
+    display: block;
+}
+
+.email-label 
+{
+    display: block;
+    margin-bottom: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-email 
+{
+    margin-bottom: 30px;
+    display: block;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #2A92F9;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 20px;
+    color: #9F9F9F;
+}
+
+.enter-email 
+{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 90px;
+    text-align: left;
+    color: #0A2541;
+    display: block;
+    z-index: 1;
+
+}
+
+/* Saly */
+
+.saly-image 
+{
+    background: url(Saly-3.png);
+    width: 897px;
+    height: 818px;
+    display: block;
+    margin-top: -700px;
+    margin-right: 100px;
+    margin-left: auto;
+    transform: rotate(-15.51deg);
+}
+
+@media screen and (max-width: 1441px) 
+{
+}
+
+@media screen and (max-width: 1360px) 
+{
+    .saly-image 
+    {
+        width: 882px;
+        height: 862px;
+        margin-top: -735px;
+        margin-right: -96px;
+        scale: 0.8;
+    }
+
+    .mainText
+    {
+        margin-left: 70px;
+        margin-top: 190px;
+    }
+
+    .enter-email-frame 
+    {
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+
+    .mainBar
+    {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .Illustrations 
+    {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .Frame3
+    {
+        margin-right: 50px;
+    }
+
+    .menu2 
+    {
+        padding-right: 58px;
+    }
+
+    .Contact 
+    {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1040px) 
+{
+    .mainBar
+    {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 100px;
+    }
+
+    .saly-image
+    {
+        width: 883px;
+        height: 810px;
+        margin-top: -205px;
+        margin-right: 0;
+        margin-left: -271px;
+    }
+
+    .mainText
+    {
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+
+    .enter-email
+    {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .Home 
+    {
+        margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu 
+    {
+        display: none;
+    }
+
+    .menu2 
+    {
+        display: none;
+    }
+
+    .menu_btn_click 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) 
+{
+    .saly-image 
+    {
+        scale: 0.7;
+        width: 873px;
+        height: 814px;
+        margin-top: -205px;
+        margin-right: 0;
+        margin-left: -300px;
+    }
+}
